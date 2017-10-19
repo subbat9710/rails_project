@@ -1,0 +1,74 @@
+<%= form_with(model: post, url: url, local: true) do |form| %>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="card">
+        <div class="card-block">
+          <% if @post.new_record? %>
+            <h4 class="card-title">New Post</h4>
+          <% else %>
+            <h4 class="card-title">
+              <b>Edit:</b>
+              <span class="thin-text"><%= @post.title %></span>
+            </h4>
+          <% end %>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="field">
+              <%= form.label :title %>
+              <%= form.text_field :title, class: 'form-control' %>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="field">
+              <%= form.label :banner_image_url %>
+              <%= form.text_field :banner_image_url, class: 'form-control' %>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="field">
+              <%= form.label :description %>
+              <%= form.text_area :description, class: 'form-control' %>
+            </div>
+          </li>
+           <li class="list-group-item">
+            <div class="field">
+              <%= form.label 'Tags' %>
+              <%= form.text_area :tag_list, class: 'form-control' %>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="actions">
+              <%= form.submit "Save Blog post", class: 'btn btn-success btn-block' %>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <% if @post.persisted? %>
+        <%= link_to 'Show', @post %> |
+      <% end %>
+      <%= link_to 'Back', authors_posts_path %>
+      
+    </div>
+    <div class="col-md-8">
+      <div class="field">
+        <%= form.text_area :body, id: :post_body %>
+      </div>
+    </div>
+  </div>
+ 
+<% end %>

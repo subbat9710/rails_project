@@ -1,0 +1,54 @@
+.pages.about {
+  .about {
+    border: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  p {
+	color: #737373;
+	padding: 0 200px 0 200px;
+	font-size: 18px;
+	line-height: 30px;
+  }
+  img {
+	height: 190px;
+	width: 190px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius: 50%;
+  }
+  i {
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+  }
+  a:hover i {
+	background: #709963;
+  }
+  #myresume {
+	text-decoration: none;
+	color: #000;
+	border: solid 2px;
+	padding: 6px;
+	border-radius: 5px;
+  }
+  #myresume:hover {
+	background: #0f69ff;
+	color: #fff;
+  }
+  @media(max-width: 768px){
+	.aboutme p {
+	  padding: 0px 0 10px;
+	  font-size: 15px;
+	  line-height: 20px;
+	}
+  }
+}
+

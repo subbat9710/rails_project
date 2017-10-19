@@ -1,0 +1,81 @@
+.pages.contact {
+  .cantact {
+    border: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  }
+  img {
+    height: 480px;
+    width: 480px;
+    padding: 10px;
+    box-shadow: #000000;
+    background-size: cover;
+    background-position: center;
+  }
+  ul {
+    list-style: none;
+    padding: 20px;
+  }
+  a {
+    color: #000000;
+    padding: 7px;
+    border: solid #000000 1px;
+    border-radius: 20px;
+  }
+  a:hover {
+    background: blue;
+    color: #ffffff;
+    text-decoration: none;
+  }
+ i {
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+    border-radius: 50%;
+  }
+ 
+  p {
+    padding-bottom: 0px;
+    color: #000000;
+    /*color: #737373;*/
+  }
+  h2 {
+    color: #000000;
+    margin: 20px 0 20px;
+  }
+  .input-group {
+    margin-bottom: 25px;
+  }
+  .form-control {
+    border-radius: 0 !important;
+  }
+  span {
+    border-radius: 0 !important;
+  }
+  textarea {
+    font-size: 20px;
+  }
+  .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background: #f08080;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .btn:hover {
+    background: #a85959 !important;
+    color: #fff !important;
+  }
+  .cantact1 {
+    border: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  }
+}

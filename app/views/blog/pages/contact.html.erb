@@ -1,0 +1,48 @@
+<h2>My Contact</h2>
+<div class='col-sm-6 col-lg-6'>
+	<div class="cantact">
+    <% provide(:contact_active, 'active') %>
+        <%= image_tag("pictures/tula.jpg") %>
+        <ul>
+            <li>
+                <h4>Education</h4>
+                <p>Bachelors degree in physics from Tribhuvan University.<br>Also certified as Software developer from Techhire Pittsburgh.</p>
+            </li>
+            <li>
+                <h4>Github</h4>
+                <a href="https://github.com/subbat9710">My Github</a><p>
+            </li>
+            <li>
+                <h4>My Contact</h4>
+                <p>Email: teela.subba1991@gmail.com<br>Cellphone: 412-419-8089</p>
+            </li>
+            <li>
+                <h4>My Resume</h4>
+                <%= link_to "Click here to view", asset_path("pdf/TeelaResume.pdf") %>
+            </li>
+        </ul>    
+    </div>
+</div>
+<!--contact-->
+<div class='col-sm-4 col-lg-4'>
+    <div class="cantact2">
+        <div class="row">
+            <p class="wow fadeInUp" data-wow-delay="0.4s">I'd love your feedback!</p>
+            <form action ="/mywebsite" method ="post">
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.8s">
+                    <span class="input-group-addon" id="sizing-addon1"><j class="fa fa-user" aria-hidden="true"></j></span>
+                    <input type="text" required name="full_name" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name...">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.4s">
+                    <span class="input-group-addon" id="sizing-addon1"><j class="fa fa-envelope" aria-hidden="true"></j></span>
+                    <input type="email" required name="email" class="form-control" aria-describedby="sizing-addon1" placeholder="Enter Email...">
+                </div>
+                <div class="input-group wow fadeInUp" data-wow-delay="0.4s"> 
+                    <textarea type="text" cols="80" rows="3" required name="message" class="form-control" placeholder="Messages"></textarea>
+                    <button type="submit" class="btn btn-lg" value="Subscribe">Submit Your Feedback</button>  
+                </div>            
+            </form><br>
+        </div>
+    </div>
+</div> 
+       
