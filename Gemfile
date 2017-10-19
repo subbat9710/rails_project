@@ -35,6 +35,10 @@ gem 'devise'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap', '4.0.0.alpha3'
 
+source 'https://rails-assets.org' do 
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 gem 'annotate'
 # Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'

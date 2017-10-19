@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require tether
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require turbolinks
@@ -24,7 +25,7 @@ document.addEventListener("turbolinks:load", function() {
     console.log('Before tinymce init')
 
     tinymce.init({ 
-  	    height: '360',
+  	    height: '490',
   	    selector:'textarea#post_body',
         plugins: "codesample image media link code",
         toolbar: "undo redo | styleselect | bold italic link | codesample image media | code"
