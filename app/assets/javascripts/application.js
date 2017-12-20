@@ -17,8 +17,6 @@
 //= require turbolinks
 //= require_tree 
 //= require wow
-*= require animate
-
 
 
 document.addEventListener("turbolinks:load", function() {
