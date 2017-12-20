@@ -4,14 +4,18 @@
     background-color: #ffffff;
     text-decoration: none;
     text-align: center;
+    padding: 10px;
   }
   img {
-    height: 480px;
-    width: 480px;
+    height: 350px;
+    width: 520px;
     padding: 10px;
     box-shadow: #000000;
     background-size: cover;
     background-position: center;
+  }
+  .h5 {
+    margin-left: 0px;
   }
   ul {
     list-style: none;
@@ -77,5 +81,17 @@
     background-color: #ffffff;
     text-decoration: none;
     text-align: center;
+  }
+  .container-fluid {
+    background-color: #999999;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    .title, p {
+      color: #ffffff;
+      text-align: center;
+    }
+
+
   }
 }

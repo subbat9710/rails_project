@@ -47,6 +47,10 @@ gem 'acts-as-taggable-on', '~> 4.0'
 
 gem 'font-awesome-sass', '~> 4.7.0'
 
+gem 'animate-css-rails'
+
+gem 'wow-rails'
+
 group :development, :test do
   gem 'pry-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

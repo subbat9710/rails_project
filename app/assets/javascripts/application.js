@@ -15,7 +15,11 @@
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
+//= require_tree 
+//= require wow
+*= require animate
+
+
 
 document.addEventListener("turbolinks:load", function() {
     tinymce.remove();
