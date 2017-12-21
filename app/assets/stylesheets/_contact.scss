@@ -7,8 +7,8 @@
     padding: 10px;
   }
   img {
-    height: 350px;
-    width: 520px;
+    height: 150px;
+    width: 150px;
     padding: 10px;
     box-shadow: #000000;
     background-size: cover;
@@ -24,12 +24,10 @@
   a {
     color: #000000;
     padding: 7px;
-    border: solid #000000 1px;
-    border-radius: 20px;
+    /*border: solid #000000 1px;
+    border-radius: 20px;*/
   }
   a:hover {
-    background: blue;
-    color: #ffffff;
     text-decoration: none;
   }
  i {
@@ -76,22 +74,20 @@
     background: #a85959 !important;
     color: #fff !important;
   }
-  .cantact1 {
-    border: none;
-    background-color: #ffffff;
-    text-decoration: none;
+  .container-fluid {
+    background-color: #EDEFF1;
+    color: #54697E;
+    padding: 15px;
     text-align: center;
   }
-  .container-fluid {
-    background-color: #999999;
-    color: #ffffff;
+  .container-fluid i:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+  }
+  .footer-copyright {
     padding: 10px;
-    text-align: center;
-    .title, p {
-      color: #ffffff;
-      text-align: center;
-    }
-
-
   }
 }

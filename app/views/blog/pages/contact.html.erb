@@ -1,62 +1,34 @@
 <% provide(:page_title, 'Contact') %>
 <h2>My Contact</h2>
-<div class='col-sm-4 col-lg-6'>
+<div class='col-sm-0 col-lg-0'>
 	<div class="cantact">
-    <% provide(:contact_active, 'active') %>
-        
-        <p>Through this blog I promised to create and share new ideas related to technology. If you have any concerns and feedback please send me in my email found in the contact page.</p> 
-        <ul>
-            <a href="https://github.com/subbat9710"><k class="fa fa-github" aria-hidden="true"></k> My Github</a><p>
-            <p><k class="fa fa-envelope-o" aria-hidden="true"></k> tula.subba1991@gmail.com</p>
-        </ul>
-
-        <p>I moved to United States of America from Nepal in 2015. I completed my bcahelor's degree in Physics from Tribhuvan University,Nepal. Also I completed certificate software  certificate.</p> 
-                  
-    </div>
-</div>
-<!--contact-->
-<div class='col-sm-5 col-lg-5'>
-    <div class="cantact2">
         <div class="row">
-            <p class="wow fadeInUp" data-wow-delay="0.4s">I'd love your feedback!</p>
-            <form action ="/mywebsite" method ="post">
-                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.8s">
-                    <span class="input-group-addon" id="sizing-addon1"><j class="fa fa-user" aria-hidden="true"></j></span>
-                    <input type="text" required name="full_name" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name...">
-                </div>
-                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.4s">
-                    <span class="input-group-addon" id="sizing-addon1"><j class="fa fa-envelope" aria-hidden="true"></j></span>
-                    <input type="email" required name="email" class="form-control" aria-describedby="sizing-addon1" placeholder="Enter Email...">
-                </div>
-                <div class="input-group wow fadeInUp" data-wow-delay="0.4s"> 
-                    <textarea type="text" cols="80" rows="3" required name="message" class="form-control" placeholder="Messages"></textarea>
-                    <button type="submit" class="btn btn-lg" value="Subscribe">Submit Your Feedback</button>  
-                </div>            
-            </form><br>
-        </div>
+            <% provide(:contact_active, 'active') %>
+            <%= image_tag("pictures/phone.png") %><br>
+            <%= image_tag("pictures/contula.png") %>
+             <div>    
+                <p>I would love to have your feedback to improve myself and brings back good stuffs to you.</p> 
+                <ul>
+                    <a href="https://github.com/subbat9710"><k class="fa fa-github" aria-hidden="true"></k> My Github</a><p>
+                    <p><k class="fa fa-envelope-o" aria-hidden="true"></k> tula.subba1991@gmail.com</p>
+                </ul> 
+            </div>
+        </div>        
     </div>
-</div> 
 
 <!--Footer-->
-<footer class="col-lg-12">
-    <!--Footer Links-->
     <div class="container-fluid">
         <div class="row">
-            <h5 class="title">More Informations</h5>
-                <p>I am very happy to assist with you. Please send me feedback to improve myself and bring back some amazing stuffs with you.</p>
-        </div>
-    </div>
-    <!--/.Footer Links-->
-
-    <!--Copyright-->
-    <div class="footer-copyright">
-        <div class="container-fluid">
+            <a href="https://www.facebook.com/tularam.subba"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/TulaRamSubba"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/teela-subba-73a37213b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/subbat9710"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <div class="footer-copyright">
             © 2017 Copyright: Tula Ram Subba
-
+        </div>
         </div>
     </div>
-    <!--/.Copyright-->
-
+</div>
 </footer>
 <!--/.Footer-->
-       
+
