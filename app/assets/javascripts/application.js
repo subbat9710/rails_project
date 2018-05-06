@@ -16,8 +16,6 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree 
-//= require wow
-
 
 document.addEventListener("turbolinks:load", function() {
     tinymce.remove();

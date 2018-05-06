@@ -43,7 +43,6 @@ GEM
       activerecord (>= 4.0)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    animate-css-rails (3.5.2)
     annotate (2.7.2)
       activerecord (>= 3.2, < 6.0)
       rake (>= 10.4, < 13.0)
@@ -217,7 +216,6 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
     will_paginate (3.1.5)
-    wow-rails (0.0.1)
     xpath (2.1.0)
       nokogiri (~> 1.3)
 
@@ -226,7 +224,6 @@ PLATFORMS
 
 DEPENDENCIES
   acts-as-taggable-on (~> 4.0)
-  animate-css-rails
   annotate
   bootstrap (= 4.0.0.alpha3)
   byebug
@@ -254,7 +251,6 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
   will_paginate (~> 3.1.0)
-  wow-rails
 
 BUNDLED WITH
    1.15.4
